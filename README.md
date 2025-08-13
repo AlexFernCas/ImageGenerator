@@ -81,8 +81,6 @@ venv\Scripts\activate      # En Windows
 pip install -r requirements.txt
 ```
 
-Asegúrate de tener una cuenta en Hugging Face y haber aceptado los términos de uso del modelo Stable Diffusion.
-
 ---
 
 
