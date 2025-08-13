@@ -32,6 +32,7 @@ Se pondrá en marcha un servidor web Gradio, por defecto en el puerto 7860.
 
 ---
 
+
 # 🖼️ Imágenes generadas
 
 Prompt: "Persona haciendo surf en el desierto."
@@ -102,15 +103,32 @@ pip install -r requirements.txt
 
 ---
 
+
 # 🔍 Tecnologías y habilidades
 
-**Lenguaje:** Python  
+### Tecnologías utilizadas:
 
-**Frameworks/Librerías:** Hugging Face Diffusers y Gradio
+**Python 3.10** – Lenguaje principal del proyecto.
 
-**Herramientas:** Git, entornos virtuales, pip  
+**PyTorch** – Backend para Stable Diffusion y manejo de tensores.
 
-**Áreas de IA:** Text-to-Image, modelos generativos, optimización de inferencia
+**Diffusers** – Pipeline de Stable Diffusion para generación de imágenes.
+
+**Gradio** – Creación de interfaz web interactiva para probar prompts.
+
+**Pandas** – Registro y gestión de metadata de imágenes generadas.
+
+**YAML** – Configuración externa del proyecto.
+
+### Habilidades desarrolladas:
+
+Integración y uso de modelos de difusión para generación de imágenes realistas.
+
+Configuración flexible mediante archivos YAML para parámetros del modelo y salida.
+
+Automatización de guardado de imágenes y metadata asociada.
+
+Creación de interfaces gráficas simples y funcionales con Gradio.
 
 ---
 
