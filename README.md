@@ -3,11 +3,16 @@ Este proyecto implementa una aplicación de generación de imágenes a partir de
 
 Incluye todo el flujo: desde la configuración del entorno y carga del modelo hasta la inferencia y visualización de imágenes generadas.
 
+---
+
+
 # 🚀 Uso
 
 ### Paso 1. Ejecución del generador:
 
+```bash
 python src/main.py
+```
 
 <img src="./media/interfaz_gradio.png" controls width="600">
 
@@ -23,6 +28,8 @@ Flujo:
 
 <img src="./media/imagen_generada.png" controls width="600">
 
+---
+
 
 # 📌 Características principales
 
@@ -36,6 +43,9 @@ Código modular y fácilmente ampliable para añadir filtros o procesamientos ex
 
 Uso directo de modelos preentrenados sin necesidad de entrenamiento desde cero.
 
+---
+
+
 # 📁 Estructura del proyecto
 
 La carpeta principal incluye todo lo necesario para reproducir el generador:
@@ -46,21 +56,34 @@ model/              → Configuración y descarga de modelos preentrenados.
 requirements.txt    → Lista de dependencias necesarias.
 media/              → Recursos multimedia para documentación (gifs, capturas).
 
+---
+
+
 # 🛠️ Instalación
 
 ### Crear entorno virtual
 
+```bash
 python -m venv venv
+
 source venv/bin/activate   # En Linux/Mac
+
 venv\Scripts\activate      # En Windows
+```
 
 ### Instalar dependencias
 
+```bash
 pip install -r requirements.txt
+```
 
 Asegúrate de tener una cuenta en Hugging Face y haber aceptado los términos de uso del modelo Stable Diffusion.
 
+---
+
+
 # 📌 Notas
+
 La primera ejecución descargará el modelo desde Hugging Face, por lo que puede tardar varios minutos.
 
 La calidad y coherencia de las imágenes dependen en gran parte de la calidad y detalle del prompt.
@@ -68,6 +91,9 @@ La calidad y coherencia de las imágenes dependen en gran parte de la calidad y 
 Si usas GPU, la generación será mucho más rápida.
 
 El proyecto no incluye imágenes generadas por defecto; se pueden guardar en la carpeta data/.
+
+---
+
 
 # 📜 Licencia
 
