@@ -65,6 +65,10 @@ media/              → Recursos multimedia para documentación (gifs, capturas)
 
 # 🛠️ Instalación
 
+### Requisitos previos
+
+Python 3.10
+
 ### Crear entorno virtual
 
 ```bash
