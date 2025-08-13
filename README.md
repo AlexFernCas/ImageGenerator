@@ -67,7 +67,7 @@ media/              → Recursos multimedia para documentación (gifs, capturas)
 
 ### Requisitos previos
 
-Python 3.10
+Python 3.10 instalado
 
 ### Crear entorno virtual
 
