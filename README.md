@@ -104,9 +104,9 @@ pip install -r requirements.txt
 
 # 🔍 Tecnologías y habilidades
 
-**Lenguajes:** Python  
+**Lenguaje:** Python  
 
-**Frameworks/Librerías:** Hugging Face Diffusers, Gradio, FastAPI  
+**Frameworks/Librerías:** Hugging Face Diffusers y Gradio
 
 **Herramientas:** Git, entornos virtuales, pip  
 

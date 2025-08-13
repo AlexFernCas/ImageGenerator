@@ -1,11 +1,3 @@
-# src/main.py
-# 1.Carga Stable Diffusion (o cualquier modelo de Hugging Face que pongas en config.yaml).
-
-# 2.Permite cambiar altura, anchura, steps, guidance y seed.
-# 3.Guarda imágenes en data/generated con metadata en CSV.
-# 4.Interfaz web con Gradio lista para probar y mostrar en portfolio.
-# 5.Configuración centralizada en config.yaml para que sea fácil cambiar parámetros sin tocar código.
-
 import os
 import random
 from datetime import datetime
@@ -13,7 +5,6 @@ from datetime import datetime
 import torch
 from diffusers import StableDiffusionPipeline
 import pandas as pd
-from PIL import Image
 import gradio as gr
 import yaml
 
