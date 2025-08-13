@@ -14,9 +14,11 @@ Incluye todo el flujo: desde la configuración del entorno y carga del modelo ha
 python src/main.py
 ```
 
+Se pondrá en marcha un servidor web Gradio, por defecto en el puerto 7860.
+
 <img src="./media/interfaz_gradio.png" controls width="600">
 
-Flujo:
+**Flujo:**
 
 * Escribir una descripción (prompt) en la caja de texto de la interfaz.
 
@@ -51,9 +53,11 @@ Uso directo de modelos preentrenados sin necesidad de entrenamiento desde cero.
 La carpeta principal incluye todo lo necesario para reproducir el generador:
 
 src/main.py         → Script principal que lanza la interfaz y ejecuta la inferencia.
+
 data/               → Carpeta opcional para guardar imágenes generadas.
-model/              → Configuración y descarga de modelos preentrenados.
+
 requirements.txt    → Lista de dependencias necesarias.
+
 media/              → Recursos multimedia para documentación (gifs, capturas).
 
 ---
