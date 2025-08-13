@@ -46,7 +46,7 @@ Prompt: "Perro haciendo surf en el desierto."
 
 <img src="./media/imagen_3.png" controls width="600">
 
-El modelo genera imágenes muy ajustadas al prompt introducido y, al mismo tiempo, puede producir resultados distintos con el mismo prompt, mostrando su variabilidad creativa.
+El modelo genera **imágenes muy ajustadas al prompt introducido** y, al mismo tiempo, puede producir **resultados distintos con el mismo prompt**, mostrando su variabilidad creativa.
 
 # ✨ Características principales
 
