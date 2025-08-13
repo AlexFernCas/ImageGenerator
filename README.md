@@ -1,5 +1,5 @@
 # 🎨 Generador de Imágenes con Hugging Face Diffusers
-Este proyecto implementa una aplicación de generación de imágenes a partir de texto (text-to-image) usando modelos preentrenados de **Stable Diffusion** y la librería **Hugging Face Diffusers**, con una interfaz gráfica creada en Gradio.
+En este proyecto se ha implementado una aplicación de generación de imágenes a partir de texto (text-to-image) usando modelos preentrenados de **Stable Diffusion** y la librería **Hugging Face Diffusers**, con una interfaz gráfica creada en Gradio.
 
 Incluye todo el flujo: desde la configuración del entorno y carga del modelo hasta la inferencia y visualización de imágenes generadas.
 
@@ -16,7 +16,7 @@ python src/main.py
 
 Se pondrá en marcha un servidor web Gradio, por defecto en el puerto 7860.
 
-<img src="./media/interfaz_gradio.png" controls width="600">
+<img src="./media/interfaz_0.png" controls width="600">
 
 **Flujo:**
 
@@ -28,12 +28,27 @@ Se pondrá en marcha un servidor web Gradio, por defecto en el puerto 7860.
 
 * Visualizar y descargar la imagen generada.
 
-<img src="./media/imagen_generada.png" controls width="600">
+<img src="./media/interfaz_1.png" controls width="600">
 
 ---
 
+# 🖼️ Imágenes generadas
 
-# 📌 Características principales
+Prompt: "Persona haciendo surf en el desierto."
+
+<img src="./media/imagen_1.png" controls width="600">
+
+Prompt: "Perro haciendo surf en el desierto."
+
+<img src="./media/imagen_2.png" controls width="600">
+
+Prompt: "Perro haciendo surf en el desierto."
+
+<img src="./media/imagen_3.png" controls width="600">
+
+El modelo genera imágenes muy ajustadas al prompt introducido y, al mismo tiempo, puede producir resultados distintos con el mismo prompt, mostrando su variabilidad creativa.
+
+# ✨ Características principales
 
 Uso de Stable Diffusion preentrenado para generación de imágenes de alta calidad.
 
@@ -84,6 +99,18 @@ venv\Scripts\activate      # En Windows
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+# 🔍 Tecnologías y habilidades
+
+**Lenguajes:** Python  
+
+**Frameworks/Librerías:** Hugging Face Diffusers, Gradio, FastAPI  
+
+**Herramientas:** Git, entornos virtuales, pip  
+
+**Áreas de IA:** Text-to-Image, modelos generativos, optimización de inferencia
 
 ---
 
