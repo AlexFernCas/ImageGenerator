@@ -1,0 +1,9 @@
+# Configuración general del generador de imágenes
+model_name: "runwayml/stable-diffusion-v1-5"
+device: "cuda" 
+height: 512
+width: 512
+num_inference_steps: 50
+guidance_scale: 7.5
+seed: null  # null = aleatorio
+output_dir: "data/generated"
